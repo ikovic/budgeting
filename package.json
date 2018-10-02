@@ -2,7 +2,7 @@
   "name": "webpack-react-redux-budget-app-sample",
   "version": "3.0.0",
   "private": true,
-  "description": "Budgeting App Sample - React, Redux, Webpack",
+  "description": "React Boilerplate",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,6 @@
     "prod": "cross-env NODE_ENV=production webpack-dev-server --config webpack.config.prod.js",
     "build": "rimraf build && cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "perf": "rimraf *.report.dom.html && npm run build && (npm run serve & lighthouse http://localhost:3000 --view)",
-    "perf-live": "lighthouse https://budget.modus.app --view",
     "serve": "superstatic --port 3000",
     "deploy-github": "gh-pages -d build",
     "lint": "eslint ./app -f table",

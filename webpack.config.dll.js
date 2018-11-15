@@ -16,7 +16,6 @@ module.exports = {
       'react-router-dom',
       'redux-thunk',
       'reselect',
-      'd3',
     ],
   },
 
